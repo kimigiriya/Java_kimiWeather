@@ -1,0 +1,62 @@
+.root {
+    -fx-background-color: c7c7ff;
+    -fx-padding: 0;
+}
+
+.search-panel {
+    -fx-background-color: b69eff;
+    -fx-padding: 5px;
+}
+
+.refresh-button {
+    -fx-background-color: #98ddc7;
+    -fx-text-fill: white;
+    -fx-padding: 5 15;
+}
+
+.city-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.temp-label {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2196F3;
+}
+
+.feels-like {
+    -fx-text-fill: #666;
+}
+
+.min-max-temp {
+    -fx-text-fill: #FF5722;
+}
+
+.weather-details {
+    -fx-padding: 10px;
+    -fx-background-color: cda4de;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.forecast-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 0 5 10;
+}
+
+.forecast-container {
+    -fx-background-color: #e5aebb;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.suggestions-list {
+    -fx-background-color: cda4de;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-max-height: 150px;
+}

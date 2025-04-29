@@ -1,0 +1,1638 @@
+2025-04-28 21:54:47.151 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-28 21:55:00.206 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemerov' не найден
+	at service.WeatherService.searchCities(WeatherService.java:63)
+	at controller.MainController.searchCities(MainController.java:88)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:65)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 21:55:07.104 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Kemerovo
+2025-04-28 21:55:07.685 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.InvalidApiKeyException: Неавторизованный доступ: Please note that using One Call 3.0 requires a separate subscription to the One Call by Call plan. Learn more here https://openweathermap.org/price. If you have a valid subscription to the One Call by Call plan, but still receive this error, then please see https://openweathermap.org/faq#error401 for more info. [Endpoint: https://api.openweathermap.org/data/3.0/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=a2d8db2f65680f6696c0a0f3071cb8cc, Key: ***cb8cc]
+	at service.WeatherService.handleApiError(WeatherService.java:127)
+	at service.WeatherService.validateResponse(WeatherService.java:107)
+	at service.WeatherService.getWeatherData(WeatherService.java:89)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:122)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 22:56:29.385 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-28 22:56:31.546 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.InvalidApiKeyException: Неавторизованный доступ: Please note that using One Call 3.0 requires a separate subscription to the One Call by Call plan. Learn more here https://openweathermap.org/price. If you have a valid subscription to the One Call by Call plan, but still receive this error, then please see https://openweathermap.org/faq#error401 for more info. [Endpoint: https://api.openweathermap.org/data/3.0/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=a2d8db2f65680f6696c0a0f3071cb8cc, Key: ***cb8cc]
+	at service.WeatherService.handleApiError(WeatherService.java:127)
+	at service.WeatherService.validateResponse(WeatherService.java:107)
+	at service.WeatherService.getWeatherData(WeatherService.java:89)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:122)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:02:15.237 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-28 23:02:17.537 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.InvalidApiKeyException: Неавторизованный доступ: Please note that using One Call 3.0 requires a separate subscription to the One Call by Call plan. Learn more here https://openweathermap.org/price. If you have a valid subscription to the One Call by Call plan, but still receive this error, then please see https://openweathermap.org/faq#error401 for more info. [Endpoint: https://api.openweathermap.org/data/3.0/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=a2d8db2f65680f6696c0a0f3071cb8cc, Key: ***cb8cc]
+	at service.WeatherService.handleApiError(WeatherService.java:128)
+	at service.WeatherService.validateResponse(WeatherService.java:108)
+	at service.WeatherService.getWeatherData(WeatherService.java:90)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:122)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:06:24.005 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-28 23:18:14.474 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-28 23:18:16.502 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.InvalidApiKeyException: Неверный API-ключ. Проверьте ключ в настройках [Endpoint: https://api.openweathermap.org/data/2.5/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=a2d8db2f65680f6696c0a0f3071cb8cc, Key: ***cb8cc]
+	at service.WeatherService.handleApiError(WeatherService.java:120)
+	at service.WeatherService.validateResponse(WeatherService.java:99)
+	at service.WeatherService.getWeatherData(WeatherService.java:82)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:122)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:20:23.361 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-28 23:20:25.591 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.InvalidApiKeyException: Неверный API-ключ. Проверьте ключ в настройках [Endpoint: https://api.openweathermap.org/data/2.5/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=600c17ffe1033af2166fc6cf9613beeb, Key: ***3beeb]
+	at service.WeatherService.handleApiError(WeatherService.java:120)
+	at service.WeatherService.validateResponse(WeatherService.java:99)
+	at service.WeatherService.getWeatherData(WeatherService.java:82)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:122)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:25:16.991 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-28 23:25:19.338 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.InvalidApiKeyException: Неверный API-ключ. Проверьте ключ в настройках [Endpoint: https://api.openweathermap.org/data/2.5/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=78c3340047273dd48bf18f65c069817a, Key: ***9817a]
+	at service.WeatherService.handleApiError(WeatherService.java:120)
+	at service.WeatherService.validateResponse(WeatherService.java:99)
+	at service.WeatherService.getWeatherData(WeatherService.java:82)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:122)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:31:55.377 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-28 23:31:55.490 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-28 23:31:56.810 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.InvalidApiKeyException: Неверный API-ключ. Проверьте ключ в настройках [Endpoint: https://api.openweathermap.org/data/2.5/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=78c3340047273dd48bf18f65c069817a, Key: ***9817a]
+	at service.WeatherService.handleApiError(WeatherService.java:125)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.getWeatherData(WeatherService.java:87)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:150)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:33:19.705 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: f1fc****...
+2025-04-28 23:33:19.831 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-28 23:33:21.635 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.InvalidApiKeyException: Неверный API-ключ. Проверьте ключ в настройках [Endpoint: https://api.openweathermap.org/data/2.5/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=f1fcfa8897f196f66ed8a4a692e65933, Key: ***65933]
+	at service.WeatherService.handleApiError(WeatherService.java:125)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.getWeatherData(WeatherService.java:87)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:150)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:33:40.522 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-28 23:33:40.637 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-28 23:33:41.953 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.InvalidApiKeyException: Неверный API-ключ. Проверьте ключ в настройках [Endpoint: https://api.openweathermap.org/data/2.5/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=78c3340047273dd48bf18f65c069817a, Key: ***9817a]
+	at service.WeatherService.handleApiError(WeatherService.java:125)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.getWeatherData(WeatherService.java:87)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:150)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:34:12.007 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: f1fc****...
+2025-04-28 23:34:12.233 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-28 23:34:14.081 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.InvalidApiKeyException: Неверный API-ключ. Проверьте ключ в настройках [Endpoint: https://api.openweathermap.org/data/2.5/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=f1fcfa8897f196f66ed8a4a692e65933, Key: ***65933]
+	at service.WeatherService.handleApiError(WeatherService.java:125)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.getWeatherData(WeatherService.java:87)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:150)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:34:26.209 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.InvalidApiKeyException: Неверный API-ключ. Проверьте ключ в настройках [Endpoint: https://api.openweathermap.org/geo/1.0/direct?q=Kem&limit=5&appid=f1fcfa8897f196f66ed8a4a692e65933, Key: ***65933]
+	at service.WeatherService.handleApiError(WeatherService.java:125)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:34:36.941 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.InvalidApiKeyException: Неверный API-ключ. Проверьте ключ в настройках [Endpoint: https://api.openweathermap.org/geo/1.0/direct?q=Keme&limit=5&appid=f1fcfa8897f196f66ed8a4a692e65933, Key: ***65933]
+	at service.WeatherService.handleApiError(WeatherService.java:125)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:37:25.710 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 482a****...
+2025-04-28 23:37:25.828 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-28 23:37:27.702 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.InvalidApiKeyException: Неверный API-ключ. Проверьте ключ в настройках [Endpoint: https://api.openweathermap.org/data/2.5/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=482adb12c18eaf2ee9c6a2dac8e6c7b3, Key: ***6c7b3]
+	at service.WeatherService.handleApiError(WeatherService.java:125)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.getWeatherData(WeatherService.java:87)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:150)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:37:44.324 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemerov' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:37:49.424 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Kemerovo
+2025-04-28 23:37:49.607 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.InvalidApiKeyException: Неверный API-ключ. Проверьте ключ в настройках [Endpoint: https://api.openweathermap.org/data/2.5/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=482adb12c18eaf2ee9c6a2dac8e6c7b3, Key: ***6c7b3]
+	at service.WeatherService.handleApiError(WeatherService.java:125)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.getWeatherData(WeatherService.java:87)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:150)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:49:18.671 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-28 23:49:18.807 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-28 23:49:20.243 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather"/data/2.5/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.getWeatherData(WeatherService.java:87)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:150)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:49:25.137 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather"/geo/1.0/direct?q=фыв&limit=5&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:50:25.825 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-28 23:50:25.954 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-28 23:50:27.337 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/data/2.5/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.getWeatherData(WeatherService.java:87)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:150)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:55:51.381 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-28 23:55:51.491 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-28 23:56:07.148 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Кем' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:56:07.239 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Кеме' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:56:07.343 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Кемер' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:56:07.446 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Кемеро' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:56:14.310 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Кемер' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:56:24.554 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kem' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:56:24.693 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Keme' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:56:29.571 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemer' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:56:33.756 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemero' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:56:37.942 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemerov' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:56:38.073 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemerovo' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:56:46.229 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Lon' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:56:48.680 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Lond' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:56:48.904 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Londo' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:56:51.412 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'London' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:57:44.140 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Copy string literal text to the clipboard' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-28 23:57:55.718 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'London' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:03:10.875 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 00:03:11.097 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 00:03:30.004 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemerov' не найден
+	at service.WeatherService.searchCities(WeatherService.java:65)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:03:35.320 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Kemerovo
+2025-04-29 00:03:41.440 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Kemerovo
+2025-04-29 00:07:48.890 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 00:07:49.002 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 00:07:50.222 [JavaFX Application Thread] WARN  controller.MainController - CurrentWeather is null. Cannot update weather information.
+2025-04-29 00:07:55.134 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemerov' не найден
+	at service.WeatherService.searchCities(WeatherService.java:65)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:07:55.261 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemerove' не найден
+	at service.WeatherService.searchCities(WeatherService.java:65)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:08:00.633 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemerov' не найден
+	at service.WeatherService.searchCities(WeatherService.java:65)
+	at controller.MainController.searchCities(MainController.java:116)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:08:05.283 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Kemerovo
+2025-04-29 00:08:05.411 [JavaFX Application Thread] WARN  controller.MainController - CurrentWeather is null. Cannot update weather information.
+2025-04-29 00:08:11.992 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Kemerovo
+2025-04-29 00:08:12.158 [JavaFX Application Thread] WARN  controller.MainController - CurrentWeather is null. Cannot update weather information.
+2025-04-29 00:42:21.271 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 00:42:21.482 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 00:42:23.772 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.InvalidApiKeyException: Неверный API-ключ. Проверьте ключ в настройках [Endpoint: https://api.openweathermap.org/data/2.5/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=78c3340047273dd48bf18f65c069817a, Key: ***9817a]
+	at service.WeatherService.handleApiError(WeatherService.java:125)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.getWeatherData(WeatherService.java:87)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:122)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:43:27.307 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 00:43:27.461 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 00:43:29.069 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.InvalidApiKeyException: Неверный API-ключ. Проверьте ключ в настройках [Endpoint: https://api.openweathermap.org/data/2.5/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=78c3340047273dd48bf18f65c069817a, Key: ***9817a]
+	at service.WeatherService.handleApiError(WeatherService.java:125)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.getWeatherData(WeatherService.java:87)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:142)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:50:20.217 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 00:50:20.335 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 00:50:22.057 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/data/2.5/onecall?lat=55,3551&lon=86,0871&exclude=minutely,hourly,alerts&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.getWeatherData(WeatherService.java:87)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:142)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:52:15.377 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 00:52:15.494 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 00:52:42.453 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 00:52:42.597 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 00:52:50.592 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/geo/1.0/direct?q=Kem&limit=5&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:52:51.291 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/geo/1.0/direct?q=Keme&limit=5&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:52:54.768 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/geo/1.0/direct?q=Kemer&limit=5&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:52:57.195 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/geo/1.0/direct?q=Kemero&limit=5&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:52:59.210 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/geo/1.0/direct?q=Kemerov&limit=5&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:53:01.510 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/geo/1.0/direct?q=Kemerovo&limit=5&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:53:09.442 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/geo/1.0/direct?q=Lon&limit=5&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:53:11.642 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/geo/1.0/direct?q=Lond&limit=5&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:53:13.709 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/geo/1.0/direct?q=Londo&limit=5&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:53:14.925 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/geo/1.0/direct?q=Londob&limit=5&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:53:17.090 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/geo/1.0/direct?q=Londobn&limit=5&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:53:18.676 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/geo/1.0/direct?q=Londob&limit=5&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:53:20.166 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/geo/1.0/direct?q=Londo&limit=5&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:53:21.468 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/geo/1.0/direct?q=London&limit=5&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:54:44.968 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 00:54:45.126 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 00:54:53.701 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kem' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:54:53.779 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Keme' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:54:57.415 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemer' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:54:57.485 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemero' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:55:00.106 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemerov' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 00:55:00.205 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemerovo' не найден
+	at service.WeatherService.searchCities(WeatherService.java:64)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:03:48.353 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 01:03:48.469 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 01:04:27.938 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 01:04:28.069 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 01:08:33.486 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 01:08:33.628 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 01:08:42.178 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.WeatherApiException: Ошибка парсинга ответа API
+	at service.WeatherService.searchCities(WeatherService.java:71)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.searchCities(WeatherService.java:61)
+	... 3 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:349)
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	... 7 common frames omitted
+2025-04-29 01:08:42.780 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.WeatherApiException: Ошибка парсинга ответа API
+	at service.WeatherService.searchCities(WeatherService.java:71)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.searchCities(WeatherService.java:61)
+	... 3 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:349)
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	... 7 common frames omitted
+2025-04-29 01:08:46.731 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.WeatherApiException: Ошибка парсинга ответа API
+	at service.WeatherService.searchCities(WeatherService.java:71)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.searchCities(WeatherService.java:61)
+	... 3 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:349)
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	... 7 common frames omitted
+2025-04-29 01:08:46.862 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: city not found' не найден (API: https://api.openweathermap.org/data/2.5/weather?q=Kemero&appid=78c3340047273dd48bf18f65c069817a&units=metric&lang=ru, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:08:52.185 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: city not found' не найден (API: https://api.openweathermap.org/data/2.5/weather?q=Kemerox&appid=78c3340047273dd48bf18f65c069817a&units=metric&lang=ru, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:08:52.325 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: city not found' не найден (API: https://api.openweathermap.org/data/2.5/weather?q=Kemeroxo&appid=78c3340047273dd48bf18f65c069817a&units=metric&lang=ru, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:08:55.451 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: city not found' не найден (API: https://api.openweathermap.org/data/2.5/weather?q=Kemerox&appid=78c3340047273dd48bf18f65c069817a&units=metric&lang=ru, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:08:57.466 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: city not found' не найден (API: https://api.openweathermap.org/data/2.5/weather?q=Kemero&appid=78c3340047273dd48bf18f65c069817a&units=metric&lang=ru, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:08:59.228 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: city not found' не найден (API: https://api.openweathermap.org/data/2.5/weather?q=Kemerov&appid=78c3340047273dd48bf18f65c069817a&units=metric&lang=ru, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:09:01.254 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.WeatherApiException: Ошибка парсинга ответа API
+	at service.WeatherService.searchCities(WeatherService.java:71)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.searchCities(WeatherService.java:61)
+	... 3 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:349)
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	... 7 common frames omitted
+2025-04-29 01:10:42.789 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 01:10:42.911 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 01:10:49.574 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.WeatherApiException: Ошибка парсинга ответа API
+	at service.WeatherService.searchCities(WeatherService.java:71)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.searchCities(WeatherService.java:61)
+	... 3 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:349)
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	... 7 common frames omitted
+2025-04-29 01:10:52.499 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.WeatherApiException: Ошибка парсинга ответа API
+	at service.WeatherService.searchCities(WeatherService.java:71)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.searchCities(WeatherService.java:61)
+	... 3 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:349)
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	... 7 common frames omitted
+2025-04-29 01:10:54.447 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.WeatherApiException: Ошибка парсинга ответа API
+	at service.WeatherService.searchCities(WeatherService.java:71)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.searchCities(WeatherService.java:61)
+	... 3 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:349)
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	... 7 common frames omitted
+2025-04-29 01:10:56.317 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.WeatherApiException: Ошибка парсинга ответа API
+	at service.WeatherService.searchCities(WeatherService.java:71)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.searchCities(WeatherService.java:61)
+	... 3 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:349)
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	... 7 common frames omitted
+2025-04-29 01:10:57.532 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.WeatherApiException: Ошибка парсинга ответа API
+	at service.WeatherService.searchCities(WeatherService.java:71)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.searchCities(WeatherService.java:61)
+	... 3 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:349)
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	... 7 common frames omitted
+2025-04-29 01:10:58.897 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.WeatherApiException: Ошибка парсинга ответа API
+	at service.WeatherService.searchCities(WeatherService.java:71)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.searchCities(WeatherService.java:61)
+	... 3 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:349)
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	... 7 common frames omitted
+2025-04-29 01:13:11.876 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 01:13:12.001 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 01:13:13.288 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weather/data/2.5/forecast?lat=55,3551&lon=86,0871&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.getWeatherData(WeatherService.java:87)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:142)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:13:20.022 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: city not found' не найден (API: https://api.openweathermap.org/data/2.5/weather?q=nbf&appid=78c3340047273dd48bf18f65c069817a&units=metric&lang=ru, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:13:20.560 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: city not found' не найден (API: https://api.openweathermap.org/data/2.5/weather?q=nbfg&appid=78c3340047273dd48bf18f65c069817a&units=metric&lang=ru, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:13:20.634 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: city not found' не найден (API: https://api.openweathermap.org/data/2.5/weather?q=nbfgn&appid=78c3340047273dd48bf18f65c069817a&units=metric&lang=ru, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:13:24.064 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: city not found' не найден (API: https://api.openweathermap.org/data/2.5/weather?q=nbfg&appid=78c3340047273dd48bf18f65c069817a&units=metric&lang=ru, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:13:25.418 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: city not found' не найден (API: https://api.openweathermap.org/data/2.5/weather?q=nbf&appid=78c3340047273dd48bf18f65c069817a&units=metric&lang=ru, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:13:38.524 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.WeatherApiException: Ошибка парсинга ответа API
+	at service.WeatherService.searchCities(WeatherService.java:71)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.searchCities(WeatherService.java:61)
+	... 3 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:349)
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	... 7 common frames omitted
+2025-04-29 01:13:40.576 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: city not found' не найден (API: https://api.openweathermap.org/data/2.5/weather?q=Mosc&appid=78c3340047273dd48bf18f65c069817a&units=metric&lang=ru, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:13:43.421 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: city not found' не найден (API: https://api.openweathermap.org/data/2.5/weather?q=Mosco&appid=78c3340047273dd48bf18f65c069817a&units=metric&lang=ru, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:13:45.261 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.WeatherApiException: Ошибка парсинга ответа API
+	at service.WeatherService.searchCities(WeatherService.java:71)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.searchCities(WeatherService.java:61)
+	... 3 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:349)
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	... 7 common frames omitted
+2025-04-29 01:14:45.843 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 01:14:45.961 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 01:14:47.195 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки погоды
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/2.5/weatherforecast?lat=55,3551&lon=86,0871&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.getWeatherData(WeatherService.java:87)
+	at controller.MainController.lambda$loadWeatherData$8(MainController.java:142)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:14:54.524 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.WeatherApiException: Ошибка парсинга ответа API
+	at service.WeatherService.searchCities(WeatherService.java:71)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.searchCities(WeatherService.java:61)
+	... 3 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:349)
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	... 7 common frames omitted
+2025-04-29 01:14:55.576 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.WeatherApiException: Ошибка парсинга ответа API
+	at service.WeatherService.searchCities(WeatherService.java:71)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.searchCities(WeatherService.java:61)
+	... 3 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:349)
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:70)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	... 7 common frames omitted
+2025-04-29 01:17:01.737 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 01:17:01.858 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 01:17:05.909 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Город не найден: city not found' не найден (API: https://api.openweathermap.org/data/2.5/weather?q=dsf&appid=78c3340047273dd48bf18f65c069817a&units=metric&lang=ru, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:130)
+	at service.WeatherService.validateResponse(WeatherService.java:104)
+	at service.WeatherService.searchCities(WeatherService.java:58)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:18:59.722 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 01:18:59.850 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 01:19:10.679 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemerov' не найден
+	at service.WeatherService.searchCities(WeatherService.java:65)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:19:22.894 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Mosc' не найден
+	at service.WeatherService.searchCities(WeatherService.java:65)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:19:33.191 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'New Y' не найден
+	at service.WeatherService.searchCities(WeatherService.java:65)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:19:35.417 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'New Yo' не найден
+	at service.WeatherService.searchCities(WeatherService.java:65)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:19:36.871 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'New Y' не найден
+	at service.WeatherService.searchCities(WeatherService.java:65)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:19:44.495 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'New, Yo' не найден
+	at service.WeatherService.searchCities(WeatherService.java:65)
+	at controller.MainController.searchCities(MainController.java:108)
+	at controller.MainController.lambda$setupSearch$0(MainController.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 01:20:11.633 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: London
+2025-04-29 01:25:05.703 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 01:25:05.856 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 01:25:20.992 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Pidu District
+2025-04-29 01:25:22.180 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Pidu District
+2025-04-29 09:56:58.237 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 09:56:58.625 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 10:16:23.216 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 10:16:23.330 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 10:26:07.944 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 10:26:08.111 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 10:26:12.053 [pool-2-thread-2] ERROR controller.MainController - Error loading weather data
+exception.WeatherApiException: Ошибка парсинга данных о погоде
+	at service.WeatherService.getWeatherData(WeatherService.java:99)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 365 path $.clouds
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:226)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.getWeatherData(WeatherService.java:95)
+	... 6 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 365 path $.clouds
+	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:1196)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:227)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:219)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:131)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:222)
+	... 11 common frames omitted
+2025-04-29 10:26:12.059 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки данных о погоде
+exception.WeatherApiException: Ошибка парсинга данных о погоде
+	at service.WeatherService.getWeatherData(WeatherService.java:99)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 365 path $.clouds
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:226)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.getWeatherData(WeatherService.java:95)
+	... 6 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 365 path $.clouds
+	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:1196)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:227)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:219)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:131)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:222)
+	... 11 common frames omitted
+2025-04-29 10:26:24.303 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'kemerov' не найден
+	at service.WeatherService.searchCities(WeatherService.java:69)
+	at controller.MainController.lambda$searchCities$5(MainController.java:129)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 10:26:26.648 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Kemerovo
+2025-04-29 10:26:26.761 [pool-2-thread-2] ERROR controller.MainController - Error loading weather data
+exception.WeatherApiException: Ошибка парсинга данных о погоде
+	at service.WeatherService.getWeatherData(WeatherService.java:99)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 351 path $.clouds
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:226)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.getWeatherData(WeatherService.java:95)
+	... 6 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 351 path $.clouds
+	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:1196)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:227)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:219)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:131)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:222)
+	... 11 common frames omitted
+2025-04-29 10:26:26.768 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки данных о погоде
+exception.WeatherApiException: Ошибка парсинга данных о погоде
+	at service.WeatherService.getWeatherData(WeatherService.java:99)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 351 path $.clouds
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:226)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.getWeatherData(WeatherService.java:95)
+	... 6 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 351 path $.clouds
+	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:1196)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:227)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:219)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:131)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:222)
+	... 11 common frames omitted
+2025-04-29 10:37:11.172 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 10:37:11.272 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 10:37:12.923 [pool-2-thread-2] ERROR controller.MainController - Error loading weather data
+exception.WeatherApiException: Ошибка парсинга данных о погоде
+	at service.WeatherService.getWeatherData(WeatherService.java:99)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 340 path $.clouds
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:226)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.getWeatherData(WeatherService.java:95)
+	... 6 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 340 path $.clouds
+	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:1196)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:227)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:219)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:131)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:222)
+	... 11 common frames omitted
+2025-04-29 10:37:12.926 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки данных о погоде
+exception.WeatherApiException: Ошибка парсинга данных о погоде
+	at service.WeatherService.getWeatherData(WeatherService.java:99)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 340 path $.clouds
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:226)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.getWeatherData(WeatherService.java:95)
+	... 6 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 340 path $.clouds
+	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:1196)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:227)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:219)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:131)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:222)
+	... 11 common frames omitted
+2025-04-29 10:37:20.695 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'kemerov' не найден
+	at service.WeatherService.searchCities(WeatherService.java:69)
+	at controller.MainController.lambda$searchCities$5(MainController.java:129)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 10:37:23.110 [JavaFX Application Thread] INFO  model.DatabaseHandler - Removed oldest city to maintain limit
+2025-04-29 10:37:23.125 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Kemerovo
+2025-04-29 10:37:23.216 [pool-2-thread-2] ERROR controller.MainController - Error loading weather data
+exception.WeatherApiException: Ошибка парсинга данных о погоде
+	at service.WeatherService.getWeatherData(WeatherService.java:99)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 340 path $.clouds
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:226)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.getWeatherData(WeatherService.java:95)
+	... 6 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 340 path $.clouds
+	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:1196)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:227)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:219)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:131)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:222)
+	... 11 common frames omitted
+2025-04-29 10:37:23.216 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки данных о погоде
+exception.WeatherApiException: Ошибка парсинга данных о погоде
+	at service.WeatherService.getWeatherData(WeatherService.java:99)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 340 path $.clouds
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:226)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.getWeatherData(WeatherService.java:95)
+	... 6 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 340 path $.clouds
+	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:1196)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:227)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:219)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:131)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:222)
+	... 11 common frames omitted
+2025-04-29 10:40:21.533 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 10:40:21.636 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 10:40:23.267 [pool-2-thread-2] ERROR service.WeatherService - getWeatherData JsonSyntaxException
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 340 path $.clouds
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:226)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.getWeatherData(WeatherService.java:100)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 340 path $.clouds
+	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:1196)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:227)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:219)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:131)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:222)
+	... 11 common frames omitted
+2025-04-29 10:40:23.267 [pool-2-thread-2] ERROR controller.MainController - Error loading weather data
+exception.WeatherApiException: Ошибка парсинга данных о погоде
+	at service.WeatherService.getWeatherData(WeatherService.java:112)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 340 path $.clouds
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:226)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.getWeatherData(WeatherService.java:100)
+	... 6 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 340 path $.clouds
+	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:1196)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:227)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:219)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:131)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:222)
+	... 11 common frames omitted
+2025-04-29 10:40:23.271 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки данных о погоде
+exception.WeatherApiException: Ошибка парсинга данных о погоде
+	at service.WeatherService.getWeatherData(WeatherService.java:112)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 340 path $.clouds
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:226)
+	at com.google.gson.Gson.fromJson(Gson.java:963)
+	at com.google.gson.Gson.fromJson(Gson.java:928)
+	at com.google.gson.Gson.fromJson(Gson.java:877)
+	at com.google.gson.Gson.fromJson(Gson.java:848)
+	at service.WeatherService.getWeatherData(WeatherService.java:100)
+	... 6 common frames omitted
+Caused by: java.lang.IllegalStateException: Expected an int but was BEGIN_OBJECT at line 1 column 340 path $.clouds
+	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:1196)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:227)
+	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:219)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:131)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:222)
+	... 11 common frames omitted
+2025-04-29 10:45:19.683 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 10:45:19.805 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 10:45:21.668 [pool-2-thread-2] ERROR controller.MainController - Error loading weather data
+exception.WeatherApiException: Ошибка API 401: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info. (API: https://api.openweathermap.org/data/2.5/forecast/daily?lat=55,3551&lon=86,0871&cnt=5&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 401)
+	at service.WeatherService.handleApiError(WeatherService.java:183)
+	at service.WeatherService.validateResponse(WeatherService.java:150)
+	at service.WeatherService.getForecastData(WeatherService.java:128)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:173)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 10:45:21.671 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки данных о погоде
+exception.WeatherApiException: Ошибка API 401: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info. (API: https://api.openweathermap.org/data/2.5/forecast/daily?lat=55,3551&lon=86,0871&cnt=5&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 401)
+	at service.WeatherService.handleApiError(WeatherService.java:183)
+	at service.WeatherService.validateResponse(WeatherService.java:150)
+	at service.WeatherService.getForecastData(WeatherService.java:128)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:173)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 10:45:40.594 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 10:45:40.731 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 10:45:43.242 [pool-2-thread-2] ERROR controller.MainController - Error loading weather data
+exception.WeatherApiException: Ошибка API 401: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info. (API: https://api.openweathermap.org/data/2.5/forecast/daily?lat=55,3551&lon=86,0871&cnt=5&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 401)
+	at service.WeatherService.handleApiError(WeatherService.java:183)
+	at service.WeatherService.validateResponse(WeatherService.java:150)
+	at service.WeatherService.getForecastData(WeatherService.java:128)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:173)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 10:45:43.253 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки данных о погоде
+exception.WeatherApiException: Ошибка API 401: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info. (API: https://api.openweathermap.org/data/2.5/forecast/daily?lat=55,3551&lon=86,0871&cnt=5&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 401)
+	at service.WeatherService.handleApiError(WeatherService.java:183)
+	at service.WeatherService.validateResponse(WeatherService.java:150)
+	at service.WeatherService.getForecastData(WeatherService.java:128)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:173)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 10:46:37.282 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 10:46:37.393 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 10:46:39.480 [pool-2-thread-2] ERROR controller.MainController - Error loading weather data
+exception.WeatherApiException: Ошибка API 401: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info. (API: https://api.openweathermap.org/data/2.5/forecast/daily?lat=55,3551&lon=86,0871&cnt=5&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 401)
+	at service.WeatherService.handleApiError(WeatherService.java:183)
+	at service.WeatherService.validateResponse(WeatherService.java:150)
+	at service.WeatherService.getForecastData(WeatherService.java:128)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:173)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 10:46:39.483 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки данных о погоде
+exception.WeatherApiException: Ошибка API 401: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info. (API: https://api.openweathermap.org/data/2.5/forecast/daily?lat=55,3551&lon=86,0871&cnt=5&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 401)
+	at service.WeatherService.handleApiError(WeatherService.java:183)
+	at service.WeatherService.validateResponse(WeatherService.java:150)
+	at service.WeatherService.getForecastData(WeatherService.java:128)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:173)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 10:49:58.017 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 10:49:58.148 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 10:50:30.351 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Mosc' не найден
+	at service.WeatherService.searchCities(WeatherService.java:69)
+	at controller.MainController.lambda$searchCities$5(MainController.java:129)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 10:50:32.577 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Moscc' не найден
+	at service.WeatherService.searchCities(WeatherService.java:69)
+	at controller.MainController.lambda$searchCities$5(MainController.java:129)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 10:50:34.543 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Mosc' не найден
+	at service.WeatherService.searchCities(WeatherService.java:69)
+	at controller.MainController.lambda$searchCities$5(MainController.java:129)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 10:50:38.549 [JavaFX Application Thread] INFO  model.DatabaseHandler - Removed oldest city to maintain limit
+2025-04-29 10:50:38.563 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Moscow
+2025-04-29 10:50:40.434 [JavaFX Application Thread] INFO  model.DatabaseHandler - Removed oldest city to maintain limit
+2025-04-29 10:50:40.446 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Moscow
+2025-04-29 10:50:59.523 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemerov' не найден
+	at service.WeatherService.searchCities(WeatherService.java:69)
+	at controller.MainController.lambda$searchCities$5(MainController.java:129)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 10:51:01.842 [JavaFX Application Thread] INFO  model.DatabaseHandler - Removed oldest city to maintain limit
+2025-04-29 10:51:01.854 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Kemerovo
+2025-04-29 10:52:06.908 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 10:52:07.037 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 10:54:50.620 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 10:54:50.748 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 10:54:52.472 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 10:56:13.633 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 10:56:13.757 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 10:56:15.726 [pool-2-thread-2] INFO  service.WeatherService - JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":17.83,"feels_like":17.81,"temp_min":17.83,"temp_max":17.83,"pressure":1006,"humidity":82,"sea_level":1006,"grnd_level":991},"visibility":10000,"wind":{"speed":5,"deg":140},"clouds":{"all":40},"dt":1745898976,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 10:56:15.729 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 11:02:17.096 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 11:03:01.957 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 11:03:02.098 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 11:04:10.540 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 11:04:10.645 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 11:04:59.509 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 11:04:59.619 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 11:05:01.362 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 11:11:00.576 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 11:11:00.774 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 11:11:02.815 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 11:13:22.581 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 11:13:22.719 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 11:13:24.989 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 11:14:19.692 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 11:14:19.821 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 11:14:22.121 [pool-2-thread-2] INFO  service.WeatherService - JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":19.83,"feels_like":19.64,"temp_min":19.83,"temp_max":19.83,"pressure":1006,"humidity":68,"sea_level":1006,"grnd_level":991},"visibility":10000,"wind":{"speed":5,"deg":150},"clouds":{"all":40},"dt":1745899863,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 11:14:22.125 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 11:18:43.747 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 11:19:24.855 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 11:19:24.975 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 11:19:27.037 [pool-2-thread-2] ERROR controller.MainController - Error loading weather data
+exception.WeatherApiException: Ошибка API 401: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info. (API: https://api.openweathermap.org/data/2.5/forecast/daily?lat=55,3551&lon=86,0871&cnt=5&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 401)
+	at service.WeatherService.handleApiError(WeatherService.java:184)
+	at service.WeatherService.validateResponse(WeatherService.java:151)
+	at service.WeatherService.getForecastData(WeatherService.java:128)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:173)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 11:19:27.039 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки данных о погоде
+exception.WeatherApiException: Ошибка API 401: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info. (API: https://api.openweathermap.org/data/2.5/forecast/daily?lat=55,3551&lon=86,0871&cnt=5&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 401)
+	at service.WeatherService.handleApiError(WeatherService.java:184)
+	at service.WeatherService.validateResponse(WeatherService.java:151)
+	at service.WeatherService.getForecastData(WeatherService.java:128)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:173)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 11:28:10.347 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 482a****...
+2025-04-29 11:28:10.535 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 11:28:13.096 [pool-2-thread-2] ERROR controller.MainController - Error loading weather data
+exception.WeatherApiException: Ошибка API 401: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info. (API: https://api.openweathermap.org/data/2.5/forecast/daily?lat=55,3551&lon=86,0871&cnt=5&units=metric&appid=482adb12c18eaf2ee9c6a2dac8e6c7b3, Status: 401)
+	at service.WeatherService.handleApiError(WeatherService.java:184)
+	at service.WeatherService.validateResponse(WeatherService.java:151)
+	at service.WeatherService.getForecastData(WeatherService.java:128)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:173)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 11:28:13.097 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки данных о погоде
+exception.WeatherApiException: Ошибка API 401: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info. (API: https://api.openweathermap.org/data/2.5/forecast/daily?lat=55,3551&lon=86,0871&cnt=5&units=metric&appid=482adb12c18eaf2ee9c6a2dac8e6c7b3, Status: 401)
+	at service.WeatherService.handleApiError(WeatherService.java:184)
+	at service.WeatherService.validateResponse(WeatherService.java:151)
+	at service.WeatherService.getForecastData(WeatherService.java:128)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:173)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 11:28:36.737 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 482a****...
+2025-04-29 11:28:36.896 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 11:28:39.999 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":19.83,"feels_like":19.64,"temp_min":19.83,"temp_max":19.83,"pressure":1006,"humidity":68,"sea_level":1006,"grnd_level":991},"visibility":10000,"wind":{"speed":5,"deg":150},"clouds":{"all":40},"dt":1745900893,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 11:28:40.007 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 11:29:30.181 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: bd5e****...
+2025-04-29 11:29:30.319 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 11:29:34.136 [pool-2-thread-2] ERROR controller.MainController - Error loading weather data
+exception.RateLimitExceededException: Превышен лимит запросов (API: https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&units=metric&appid=bd5e378503939ddaee76f12ad7a97608, Status: 429)
+	at service.WeatherService.handleApiError(WeatherService.java:177)
+	at service.WeatherService.validateResponse(WeatherService.java:151)
+	at service.WeatherService.getWeatherData(WeatherService.java:94)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 11:29:34.147 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки данных о погоде
+exception.RateLimitExceededException: Превышен лимит запросов (API: https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&units=metric&appid=bd5e378503939ddaee76f12ad7a97608, Status: 429)
+	at service.WeatherService.handleApiError(WeatherService.java:177)
+	at service.WeatherService.validateResponse(WeatherService.java:151)
+	at service.WeatherService.getWeatherData(WeatherService.java:94)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 11:35:31.498 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 11:35:31.625 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 11:35:34.001 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":19.83,"feels_like":19.64,"temp_min":19.83,"temp_max":19.83,"pressure":1006,"humidity":68,"sea_level":1006,"grnd_level":991},"visibility":10000,"wind":{"speed":5,"deg":150},"clouds":{"all":40},"dt":1745900893,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 11:35:34.006 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 11:38:05.445 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 11:38:05.579 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 11:38:07.805 [pool-2-thread-2] ERROR controller.MainController - Error loading weather data
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/3.0/weather?lat=55,3551&lon=86,0871&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:171)
+	at service.WeatherService.validateResponse(WeatherService.java:151)
+	at service.WeatherService.getWeatherData(WeatherService.java:94)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 11:38:07.806 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки данных о погоде
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/3.0/weather?lat=55,3551&lon=86,0871&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:171)
+	at service.WeatherService.validateResponse(WeatherService.java:151)
+	at service.WeatherService.getWeatherData(WeatherService.java:94)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 11:38:18.997 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemerov' не найден
+	at service.WeatherService.searchCities(WeatherService.java:69)
+	at controller.MainController.lambda$searchCities$5(MainController.java:129)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 11:38:21.378 [JavaFX Application Thread] INFO  model.DatabaseHandler - Removed oldest city to maintain limit
+2025-04-29 11:38:21.391 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Kemerovo
+2025-04-29 11:38:21.487 [pool-2-thread-2] ERROR controller.MainController - Error loading weather data
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/3.0/weather?lat=55,3551&lon=86,0871&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:171)
+	at service.WeatherService.validateResponse(WeatherService.java:151)
+	at service.WeatherService.getWeatherData(WeatherService.java:94)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 11:38:21.488 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки данных о погоде
+exception.CityNotFoundException: Город 'Город не найден: Internal error' не найден (API: https://api.openweathermap.org/data/3.0/weather?lat=55,3551&lon=86,0871&units=metric&appid=78c3340047273dd48bf18f65c069817a, Status: 404)
+	at service.WeatherService.handleApiError(WeatherService.java:171)
+	at service.WeatherService.validateResponse(WeatherService.java:151)
+	at service.WeatherService.getWeatherData(WeatherService.java:94)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 11:38:46.187 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 11:38:46.327 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 11:38:49.359 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":19.83,"feels_like":19.75,"temp_min":19.83,"temp_max":19.83,"pressure":1006,"humidity":72,"sea_level":1006,"grnd_level":991},"visibility":10000,"wind":{"speed":5,"deg":140},"clouds":{"all":40},"dt":1745901530,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 11:38:49.361 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 11:38:55.252 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Mosc' не найден
+	at service.WeatherService.searchCities(WeatherService.java:69)
+	at controller.MainController.lambda$searchCities$5(MainController.java:129)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 11:39:02.107 [JavaFX Application Thread] INFO  model.DatabaseHandler - Removed oldest city to maintain limit
+2025-04-29 11:39:02.121 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Moscow
+2025-04-29 11:39:02.875 [pool-2-thread-1] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":37.6175,"lat":55.7504},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"base":"stations","main":{"temp":8.11,"feels_like":4.72,"temp_min":7.29,"temp_max":8.58,"pressure":1015,"humidity":40,"sea_level":1015,"grnd_level":995},"visibility":10000,"wind":{"speed":6.36,"deg":227,"gust":14.2},"clouds":{"all":100},"dt":1745901543,"sys":{"type":2,"id":2094500,"country":"RU","sunrise":1745891455,"sunset":1745946156},"timezone":10800,"id":524901,"name":"Moscow","cod":200}
+2025-04-29 11:39:02.879 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 11:39:03.398 [JavaFX Application Thread] INFO  model.DatabaseHandler - Removed oldest city to maintain limit
+2025-04-29 11:39:03.410 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Moscow
+2025-04-29 11:39:03.630 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":37.6175,"lat":55.7504},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"base":"stations","main":{"temp":8.11,"feels_like":4.72,"temp_min":7.29,"temp_max":8.58,"pressure":1015,"humidity":40,"sea_level":1015,"grnd_level":995},"visibility":10000,"wind":{"speed":6.36,"deg":227,"gust":14.2},"clouds":{"all":100},"dt":1745901543,"sys":{"type":2,"id":2094500,"country":"RU","sunrise":1745891455,"sunset":1745946156},"timezone":10800,"id":524901,"name":"Moscow","cod":200}
+2025-04-29 11:39:03.631 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 11:39:14.742 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemerov' не найден
+	at service.WeatherService.searchCities(WeatherService.java:69)
+	at controller.MainController.lambda$searchCities$5(MainController.java:129)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 11:39:19.813 [JavaFX Application Thread] INFO  model.DatabaseHandler - Removed oldest city to maintain limit
+2025-04-29 11:39:19.825 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Kemerovo
+2025-04-29 11:39:20.073 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":19.83,"feels_like":19.75,"temp_min":19.83,"temp_max":19.83,"pressure":1006,"humidity":72,"sea_level":1006,"grnd_level":991},"visibility":10000,"wind":{"speed":5,"deg":140},"clouds":{"all":40},"dt":1745901530,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 11:39:20.077 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 20:27:26.187 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 20:27:26.308 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 20:27:28.922 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"base":"stations","main":{"temp":17.83,"feels_like":17.68,"temp_min":17.83,"temp_max":17.83,"pressure":1005,"humidity":77,"sea_level":1005,"grnd_level":989},"visibility":10000,"wind":{"speed":8,"deg":270,"gust":13},"rain":{"1h":0.66},"clouds":{"all":40},"dt":1745933249,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 20:27:28.931 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 20:43:30.238 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 20:43:30.350 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 20:43:32.506 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":17.83,"feels_like":17.42,"temp_min":17.83,"temp_max":17.83,"pressure":1004,"humidity":67,"sea_level":1004,"grnd_level":989},"visibility":10000,"wind":{"speed":9,"deg":270},"clouds":{"all":40},"dt":1745934212,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 20:43:32.510 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 20:44:41.278 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 20:44:41.388 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 20:44:43.557 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":17.83,"feels_like":17.42,"temp_min":17.83,"temp_max":17.83,"pressure":1004,"humidity":67,"sea_level":1004,"grnd_level":989},"visibility":10000,"wind":{"speed":9,"deg":270},"clouds":{"all":40},"dt":1745934212,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 20:44:43.572 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 20:45:38.540 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 20:45:38.659 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 20:45:41.445 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":17.83,"feels_like":17.42,"temp_min":17.83,"temp_max":17.83,"pressure":1004,"humidity":67,"sea_level":1004,"grnd_level":989},"visibility":10000,"wind":{"speed":9,"deg":270},"clouds":{"all":40},"dt":1745934212,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 20:45:41.449 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 20:46:51.608 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 20:46:51.719 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 20:46:53.912 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":17.83,"feels_like":17.42,"temp_min":17.83,"temp_max":17.83,"pressure":1004,"humidity":67,"sea_level":1004,"grnd_level":989},"visibility":10000,"wind":{"speed":9,"deg":270},"clouds":{"all":40},"dt":1745934212,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 20:46:53.917 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 20:47:37.879 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 20:47:38.005 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 20:47:40.478 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":17.83,"feels_like":17.42,"temp_min":17.83,"temp_max":17.83,"pressure":1004,"humidity":67,"sea_level":1004,"grnd_level":989},"visibility":10000,"wind":{"speed":9,"deg":270},"clouds":{"all":40},"dt":1745934212,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 20:47:40.480 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 20:49:01.404 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 20:49:01.521 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 20:49:03.659 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03n"}],"base":"stations","main":{"temp":17.83,"feels_like":17.42,"temp_min":17.83,"temp_max":17.83,"pressure":1004,"humidity":67,"sea_level":1004,"grnd_level":989},"visibility":10000,"wind":{"speed":9,"deg":270},"clouds":{"all":40},"dt":1745934543,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 20:49:03.663 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 20:50:18.019 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 20:50:18.153 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 20:50:20.352 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03n"}],"base":"stations","main":{"temp":17.83,"feels_like":17.42,"temp_min":17.83,"temp_max":17.83,"pressure":1004,"humidity":67,"sea_level":1004,"grnd_level":989},"visibility":10000,"wind":{"speed":9,"deg":270},"clouds":{"all":40},"dt":1745934543,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 20:50:20.357 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 20:51:02.711 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 20:51:02.831 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 20:51:05.055 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03n"}],"base":"stations","main":{"temp":17.83,"feels_like":17.42,"temp_min":17.83,"temp_max":17.83,"pressure":1004,"humidity":67,"sea_level":1004,"grnd_level":989},"visibility":10000,"wind":{"speed":9,"deg":270},"clouds":{"all":40},"dt":1745934543,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 20:51:05.059 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 20:54:37.069 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 20:54:37.177 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 20:54:39.311 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03n"}],"base":"stations","main":{"temp":17.83,"feels_like":17.42,"temp_min":17.83,"temp_max":17.83,"pressure":1004,"humidity":67,"sea_level":1004,"grnd_level":989},"visibility":10000,"wind":{"speed":9,"deg":270},"clouds":{"all":40},"dt":1745934879,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 20:54:39.315 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 20:55:20.443 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 20:55:20.586 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 20:55:22.729 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03n"}],"base":"stations","main":{"temp":17.83,"feels_like":17.42,"temp_min":17.83,"temp_max":17.83,"pressure":1004,"humidity":67,"sea_level":1004,"grnd_level":989},"visibility":10000,"wind":{"speed":9,"deg":270},"clouds":{"all":40},"dt":1745934879,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 20:55:22.897 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 20:55:55.255 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 20:55:55.410 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 20:55:57.573 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03n"}],"base":"stations","main":{"temp":17.83,"feels_like":17.42,"temp_min":17.83,"temp_max":17.83,"pressure":1004,"humidity":67,"sea_level":1004,"grnd_level":989},"visibility":10000,"wind":{"speed":9,"deg":270},"clouds":{"all":40},"dt":1745934879,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 20:55:57.577 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 20:57:35.908 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 20:57:36.042 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 20:57:38.043 [pool-2-thread-2] ERROR controller.MainController - Error loading weather data
+exception.WeatherApiException: Ошибка API 401: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info. (API: https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&units=metric&appid=78c3340047273dd48bf18f65c069817a], Status: 401)
+	at service.WeatherService.handleApiError(WeatherService.java:184)
+	at service.WeatherService.validateResponse(WeatherService.java:151)
+	at service.WeatherService.getWeatherData(WeatherService.java:94)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 20:57:38.047 [JavaFX Application Thread] ERROR controller.MainController - Ошибка загрузки данных о погоде
+exception.WeatherApiException: Ошибка API 401: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info. (API: https://api.openweathermap.org/data/2.5/weather?lat=55,3551&lon=86,0871&units=metric&appid=78c3340047273dd48bf18f65c069817a], Status: 401)
+	at service.WeatherService.handleApiError(WeatherService.java:184)
+	at service.WeatherService.validateResponse(WeatherService.java:151)
+	at service.WeatherService.getWeatherData(WeatherService.java:94)
+	at controller.MainController.lambda$loadWeatherData$11(MainController.java:172)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 20:58:57.184 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 20:58:57.358 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 20:58:59.638 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03n"}],"base":"stations","main":{"temp":17.83,"feels_like":17.42,"temp_min":17.83,"temp_max":17.83,"pressure":1004,"humidity":67,"sea_level":1004,"grnd_level":989},"visibility":10000,"wind":{"speed":9,"deg":270},"clouds":{"all":40},"dt":1745934543,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 20:58:59.643 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 21:00:39.364 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 21:00:39.520 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 21:00:42.414 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03n"}],"base":"stations","main":{"temp":17.83,"feels_like":17.42,"temp_min":17.83,"temp_max":17.83,"pressure":1004,"humidity":67,"sea_level":1004,"grnd_level":989},"visibility":10000,"wind":{"speed":9,"deg":270},"clouds":{"all":40},"dt":1745935175,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 21:00:42.428 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 21:35:06.997 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 21:52:20.174 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 21:52:20.287 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 21:52:22.920 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON Response: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03n"}],"base":"stations","main":{"temp":16.83,"feels_like":16.32,"temp_min":16.83,"temp_max":16.83,"pressure":1004,"humidity":67,"sea_level":1004,"grnd_level":988},"visibility":10000,"wind":{"speed":5,"deg":270},"clouds":{"all":40},"dt":1745938343,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 21:52:23.038 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 22:12:27.589 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 22:12:27.700 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 22:12:29.867 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":520,"main":"Rain","description":"light intensity shower rain","icon":"09n"}],"base":"stations","main":{"temp":15.83,"feels_like":15.35,"temp_min":15.83,"temp_max":15.83,"pressure":1004,"humidity":72,"sea_level":1004,"grnd_level":988},"visibility":10000,"wind":{"speed":6,"deg":250},"clouds":{"all":40},"dt":1745939550,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 22:12:29.876 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 22:13:38.073 [JavaFX Application Thread] INFO  service.WeatherService - WeatherService создан с API ключем: 78c3****...
+2025-04-29 22:13:38.178 [JavaFX Application Thread] INFO  model.DatabaseHandler - Database initialized successfully
+2025-04-29 22:13:40.389 [pool-2-thread-2] INFO  service.WeatherService - Forecast JSON: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":520,"main":"Rain","description":"light intensity shower rain","icon":"09n"}],"base":"stations","main":{"temp":15.83,"feels_like":15.35,"temp_min":15.83,"temp_max":15.83,"pressure":1004,"humidity":72,"sea_level":1004,"grnd_level":988},"visibility":10000,"wind":{"speed":6,"deg":250},"clouds":{"all":40},"dt":1745939550,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 22:13:40.396 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 22:13:58.395 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Mosc' не найден
+	at service.WeatherService.searchCities(WeatherService.java:66)
+	at controller.MainController.lambda$searchCities$5(MainController.java:124)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 22:14:04.351 [JavaFX Application Thread] INFO  model.DatabaseHandler - Removed oldest city to maintain limit
+2025-04-29 22:14:04.365 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Moscow
+2025-04-29 22:14:05.259 [pool-2-thread-1] INFO  service.WeatherService - Forecast JSON: {"coord":{"lon":37.6175,"lat":55.7504},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"base":"stations","main":{"temp":10.32,"feels_like":8.77,"temp_min":10.23,"temp_max":10.42,"pressure":1006,"humidity":52,"sea_level":1006,"grnd_level":987},"visibility":10000,"wind":{"speed":5.87,"deg":246,"gust":11.27},"clouds":{"all":100},"dt":1745939387,"sys":{"type":2,"id":2094500,"country":"RU","sunrise":1745891455,"sunset":1745946156},"timezone":10800,"id":524901,"name":"Moscow","cod":200}
+2025-04-29 22:14:05.263 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
+2025-04-29 22:14:15.866 [JavaFX Application Thread] ERROR controller.MainController - Ошибка поиска
+exception.CityNotFoundException: Город 'Kemerov' не найден
+	at service.WeatherService.searchCities(WeatherService.java:66)
+	at controller.MainController.lambda$searchCities$5(MainController.java:124)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-29 22:14:17.953 [JavaFX Application Thread] INFO  model.DatabaseHandler - Removed oldest city to maintain limit
+2025-04-29 22:14:17.965 [JavaFX Application Thread] INFO  model.DatabaseHandler - Added city: Kemerovo
+2025-04-29 22:14:18.191 [pool-2-thread-1] INFO  service.WeatherService - Forecast JSON: {"coord":{"lon":86.0871,"lat":55.3551},"weather":[{"id":520,"main":"Rain","description":"light intensity shower rain","icon":"09n"}],"base":"stations","main":{"temp":15.83,"feels_like":15.35,"temp_min":15.83,"temp_max":15.83,"pressure":1004,"humidity":72,"sea_level":1004,"grnd_level":988},"visibility":10000,"wind":{"speed":6,"deg":250},"clouds":{"all":40},"dt":1745939550,"sys":{"type":1,"id":8950,"country":"RU","sunrise":1745879928,"sunset":1745934420},"timezone":25200,"id":1503901,"name":"Kemerovo","cod":200}
+2025-04-29 22:14:18.195 [JavaFX Application Thread] WARN  controller.MainController - Forecasts is null or empty.  Cannot update forecast information.
